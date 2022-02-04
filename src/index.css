@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    /* background-color: #4C566A; */
+    background-color: #99B898;
+    font-family: 'Inconsolata', monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#container{
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+}
+
+#terminal{
+    align-self: center;
+    max-width: 800px;
+    width: 100%;
+    height: 500px;
+    background-color: #2A363B;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.425);
+}
+
+#numbers{
+    background-color: #242f33;
+    height: 30px;
+}
+
+#bracket{
+    color: #FEC3AB;
+}
+
+#keyword{
+    color: #E84A5F;
+}
+
+#wrapper{
+    color: rgb(223, 223, 223);
+    background-color: transparent;
+    margin: 0 4%;
+    height: 440px;
+}
+
+#variable{
+    color: #bd9be0;
+}
+
+#comment{
+    color: rgb(116, 116, 116);
+}
+
+#header{
+    height: 20px;
+    background-color: #394a50c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: .8rem;
+    border-top-left-radius:5px; 
+    border-top-right-radius:5px;
+}
+
+.text{
+    background-color: transparent;
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+#comment {
+    color: rgb(187, 187, 187);
+}
+
+#link{
+    color: rgb(187, 187, 187);
+    background-color: transparent;
+}
+
+#link:visited{
+    color: rgb(187, 187, 187);
+}
+
+#footer{
+  background-color: #394a50c7;  
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer p {
+  margin: 0 10px;
 }
