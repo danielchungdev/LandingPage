@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-//Typescript website hehexd
+//Typescript website hehexd barely any typescript tho
 function App() {
   const [date, setDate] = useState<String>("");
   const[visits, setVisits] = useState<number>(Math.floor(Math.random() * 50));
