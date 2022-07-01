@@ -35,19 +35,20 @@ function App() {
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
-                <p className="text"><span className="text" id="keyword">const</span> <span className="text" id="variable">me</span> = <span className="text" id="bracket">{"{"}</span></p>
-                <p className="text">&nbsp;&nbsp;&nbsp;&nbsp;<span className="text" id="variable">name:</span> "Daniel Chung",</p>
-                <p className="text">&nbsp;&nbsp;&nbsp;&nbsp;<span className="text" id="variable">major:</span> "Web & Mobile Computing",</p>
-                <p className="text"><span className="text" id="bracket">{"}"}</span></p>
+                <p className="text">&nbsp;</p>
+                <p className="text">```</p>
+                <p className="text" id="comment">Hi I'm Daniel Chung</p>
+                <p className="text" id="comment">-------</p>
+                <p className="text" id="comment">SWE</p>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
+                <p className="text" id="comment">Currently 5th year student at RIT.</p>
+                <p className="text" id="comment">Currently a data engineer @ RIT.</p>
+                <p className="text" id="comment">Interested in fullstack development and Cloud.</p>
+                <p className="text" id="comment">- <a target="_blank" id="link" href="https://github.com/pikachungg">Github</a></p>
+                <p className="text" id="comment">- <a target="_blank" id="link" href="https://www.linkedin.com/in/danielchungg/">Linkedin</a></p>
                 <p className="text">&nbsp;</p>
-                <p className="text" id="comment">// Currently 5th year student at RIT.</p>
-                <p className="text" id="comment">// Interned at Mindex as a software engineer.</p>
-                <p className="text" id="comment">// Interested in fullstack development and Cloud.</p>
-                <p className="text" id="comment">// - <a target="_blank" id="link" href="https://github.com/pikachungg">Github</a></p>
-                <p className="text" id="comment">// - <a target="_blank" id="link" href="https://www.linkedin.com/in/danielchungg/">Linkedin</a></p>
-                <p className="text">&nbsp;</p>
+                <p className="text">```</p>
                 <p className="text">&nbsp;</p>
             </div>
             <div id="footer">
