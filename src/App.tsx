@@ -36,19 +36,18 @@ function App() {
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
-                <p className="text">```</p>
+                <p className="text" id="comment">```</p>
                 <p className="text" id="comment">Hi I'm Daniel Chung</p>
                 <p className="text" id="comment">-------</p>
                 <p className="text" id="comment">SWE</p>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
-                <p className="text" id="comment">Currently 5th year student at RIT.</p>
-                <p className="text" id="comment">Currently a data engineer @ RIT.</p>
+                <p className="text" id="comment">Currently a data engineer intern @ RIT.</p>
                 <p className="text" id="comment">Interested in fullstack development and Cloud.</p>
                 <p className="text" id="comment">- <a target="_blank" id="link" href="https://github.com/pikachungg">Github</a></p>
                 <p className="text" id="comment">- <a target="_blank" id="link" href="https://www.linkedin.com/in/danielchungg/">Linkedin</a></p>
                 <p className="text">&nbsp;</p>
-                <p className="text">```</p>
+                <p className="text" id="comment">```</p>
                 <p className="text">&nbsp;</p>
             </div>
             <div id="footer">
