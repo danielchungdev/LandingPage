@@ -30,24 +30,27 @@ function App() {
   return (
     <div id="container">
         <div id="terminal">
-            <div id="header" onClick={secretClickRemove}>~/Desktop/introduction.js</div>
+            <div id="header" onClick={secretClickRemove}>~/danielchung/introduction.js</div>
             <div id="wrapper" onClick={secretClickAdd}>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
-                <p className="text" id="comment">```</p>
-                <p className="text" id="comment">Hi I'm Daniel Chung</p>
-                <p className="text" id="comment">-------</p>
-                <p className="text" id="comment">SWE</p>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
-                <p className="text" id="comment">Currently a data engineer intern @ RIT.</p>
-                <p className="text" id="comment">Interested in fullstack development and Cloud.</p>
-                <p className="text" id="comment">- <a target="_blank" id="link" href="https://github.com/pikachungg">Github</a></p>
-                <p className="text" id="comment">- <a target="_blank" id="link" href="https://www.linkedin.com/in/danielchungg/">Linkedin</a></p>
                 <p className="text">&nbsp;</p>
-                <p className="text" id="comment">```</p>
+                <p className="text" id="comment"># Hi I'm Daniel Chung</p>
+                <p className="text" id="comment">⎯</p>
+                <p className="text">&nbsp;</p>
+                <p className="text" id="comment"># Software Engineer</p>
+                <p className="text" id="comment"># Rochester, NY</p>
+                <p className="text">&nbsp;</p>
+                <p className="text">&nbsp;</p>
+                <p className="text" id="line">Currently at RIT, building data pipelines and analyzing data.</p>
+                <p className="text" id="line">Interested in Web and Application development.</p>
+                <p className="text" id="line">⎯ <a target="_blank" id="link" href="https://github.com/pikachungg">Github</a></p>
+                <p className="text" id="line">⎯ <a target="_blank" id="link" href="https://www.linkedin.com/in/danielchungg/">Linkedin</a></p>
+                <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
             </div>
             <div id="footer">
