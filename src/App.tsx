@@ -30,7 +30,7 @@ function App() {
   return (
     <div id="container">
         <div id="terminal">
-            <div id="header" onClick={secretClickRemove}>~/danielchung/introduction.js</div>
+            <div id="header" onClick={secretClickRemove}>~/danielchung/introduction.txt</div>
             <div id="wrapper" onClick={secretClickAdd}>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
@@ -46,8 +46,9 @@ function App() {
                 <p className="text" id="comment"># Rochester, NY</p>
                 <p className="text">&nbsp;</p>
                 <p className="text">&nbsp;</p>
-                <p className="text" id="line">Currently at RIT, building data pipelines and analyzing data.</p>
-                <p className="text" id="line">Interested in Web and Application development.</p>
+                <p className="text" id="line">Currently a 5th year Web & Mobile Computing student</p>
+                <p className="text" id="line">Part time at RIT, building data pipelines and analyzing data.</p>
+                <p className="text" id="line">Interested in Web, Application development and Cloud Dev.</p>
                 <p className="text" id="line">⎯ <a target="_blank" id="link" href="https://github.com/pikachungg">Github</a></p>
                 <p className="text" id="line">⎯ <a target="_blank" id="link" href="https://www.linkedin.com/in/danielchungg/">Linkedin</a></p>
                 <p className="text">&nbsp;</p>
